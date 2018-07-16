@@ -1,11 +1,10 @@
 ---
-title: css常见技巧
+title: CSS常见技巧
 date: 2016-06-26 19:14:46
 tags:
-- css
+- CSS
 categories:
-- 学习
-- css
+- CSS
 ---
 
 ### CSS Sprite(雪碧图|精灵图)

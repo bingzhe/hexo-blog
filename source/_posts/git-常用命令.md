@@ -1,11 +1,11 @@
 ---
-title: git 常用命令
+title: Git 常用命令
 date: 2016-06-16 23:59:57
 tags: 
-- git
+- Git
+- Tools
 categories: 
-- 学习
-- git
+- Tools
 ---
 
 ### 新建代码库

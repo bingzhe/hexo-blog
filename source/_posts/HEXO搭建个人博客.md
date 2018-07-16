@@ -2,9 +2,9 @@
 title: HEXO搭建个人博客
 date: 2017-03-27 16:38:06
 tags: 
-- 工具
+- Tools
 categories:
-- 工具
+- Tools
 ---
 突然心血来潮，想搭建一个博客，就在网上查了一些资料，决定用hexo+Github来搭建。
 记录一下搭建过程。

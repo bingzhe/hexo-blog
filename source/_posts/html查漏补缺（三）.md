@@ -1,13 +1,11 @@
 ---
-title: html查漏补缺（三）
+title: HTML查漏补缺（三）
 date: 2016-05-29 11:34:37
 tags:
-- 学习
-- css
-- 笔记
+- HTML
+- CSS
 categories:
-- 学习
-- css
+- HTML
 ---
 ### `line-height`作用
 

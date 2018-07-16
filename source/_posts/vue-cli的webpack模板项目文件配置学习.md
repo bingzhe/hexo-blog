@@ -2,12 +2,10 @@
 title: vue-cli的webpack模板项目文件配置学习
 date: 2017-09-17 22:30:44
 tags:
-- 学习
-- vue
+- Vue
 - webpack
 categories:
-- 学习
-- vue
+- Vue
 ---
 最近在用vue-cli生成的webpack模板做项目，开发过程中需要改动webpack配置，研究了一下配置文件，发现了一篇很好的博文
 [http://blog.csdn.net/hongchh/article/details/55113751](http://blog.csdn.net/hongchh/article/details/55113751)

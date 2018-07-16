@@ -1,13 +1,10 @@
 ---
-title: html查漏补缺（一）
+title: HTML查漏补缺（一）
 date: 2016-05-22 16:24:11
 tags:
-- 学习
-- html
-- 笔记
+- HTML
 categories:
-- 学习
-- html
+- HTML
 ---
 
 ### 网页是什么

@@ -2,12 +2,10 @@
 title: vue-cli 项目中引用jQuery
 date: 2017-05-29 21:12:21
 tags: 
-- 学习 
-- vue
-- jquery
+- Vue
+- jQuery
 categories:
-- 学习
-- vue
+- Vue
 ---
 
 需要在vue-cli项目中引入jquery,做法

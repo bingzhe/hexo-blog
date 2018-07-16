@@ -1,13 +1,10 @@
 ---
-title: html查漏补缺（四）
+title: HTML查漏补缺（四）
 date: 2016-06-03 23:05:43
 tags:
-- 学习
-- html
-- 笔记
+- HTML
 categories:
-- 学习
-- html
+- HTML
 ---
 
 ### 有序列表、无序列表、自定义列表在语义上的区别

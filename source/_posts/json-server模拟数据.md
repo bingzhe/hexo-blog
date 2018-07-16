@@ -2,11 +2,9 @@
 title: json-server模拟数据
 date: 2017-03-31 13:32:09
 tags: 
-- 学习 
-- json-server
+- JavaScript
 categories:
-- 学习
-- json-server 
+- JavaScript 
 ---
 json-server可以模拟后端提供的数据，让前端流程走通，实现前后端分离
 ### 安装

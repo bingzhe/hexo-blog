@@ -2,12 +2,10 @@
 title: load()方法
 date: 2017-06-17 23:43:26
 tags: 
-- 学习
-- 笔记
+- JavaScript
 - jQuery
 categories:
-- 学习 
-- jQuery
+- JavaScript
 ---
 ## load()方法
 load()方法分为jQuery Ajax方法和jQuery 事件方法

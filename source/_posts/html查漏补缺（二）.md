@@ -1,13 +1,10 @@
 ---
-title: html查漏补缺（二）
+title: HTML查漏补缺（二）
 date: 2016-05-23 23:30:03
 tags:
-- 学习
-- css
-- 笔记
+- HTML
 categories:
-- 学习
-- css
+- HTML
 ---
 
 ### 样式引入方式

@@ -1,13 +1,11 @@
 ---
-title: vue-cli 中使用sass
+title: vue-cli中使用Sass
 date: 2017-06-22 00:39:47
 tags: 
-- 学习 
-- vue
-- sass
+- Vue
+- Sass
 categories:
-- 学习
-- vue
+- Vue
 ---
 vue-cli构建的项目中也可以使用css的预处理器，需要安装匹配的loader
 

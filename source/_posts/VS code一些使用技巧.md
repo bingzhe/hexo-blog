@@ -1,11 +1,11 @@
 ---
 layout: vs
-title: VS code一些使用技巧
+title: VSCode一些使用技巧
 date: 2017-04-1 20:34:11
 tags: 
-- 工具
+- Tools
 categories:
-- 工具
+- Tools
 ---
 最开始使用的编辑器是Atom，但有一段时间只要打开jQuery源码就挂掉，直接卡死，在公司的电脑和自己的电脑上都是如此，卸载重新安装也不行，只好换编辑器，之后也下载了传说中的神器Sublime Text3，但也没装什么插件，就换成了WebStorm，IDE果然很强大，一直用着，老大开始推VS code，就安装下来，试着用了一下，顺便记录一些插件在换机器的时候备用。  
 ### 安装

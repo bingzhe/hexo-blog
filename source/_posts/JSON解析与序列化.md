@@ -2,11 +2,10 @@
 title: JSON解析与序列化
 date: 2017-09-09 21:56:10
 tags:
-- 学习
+- JavaScript
 - JSON
 categories: 
-- 学习
-- JSON
+- JavaScript
 ---
 ## JSON
 

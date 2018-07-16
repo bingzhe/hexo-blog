@@ -2,12 +2,10 @@
 title: rem布局实现思路
 date: 2017-07-05 18:57:05
 tags:
-- 学习
 - rem
 - 移动端布局
 categories: 
-- 学习
-- 移动端布局
+- CSS
 ---
 
 ## rem

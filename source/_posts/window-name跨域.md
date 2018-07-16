@@ -2,10 +2,9 @@
 title: window.name跨域
 date: 2017-07-24 22:20:25
 tags:
-- 学习
-- 跨域
+- JavaScript
 categories: 
-- 学习
+- JavaScript
 ---
 ## window.name 基本原理
 

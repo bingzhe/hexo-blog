@@ -1,13 +1,11 @@
 ---
-title: vuex数据本地储存
+title: Vuex数据本地储存
 date: 2017-08-27 23:47:04
 tags: 
-- 学习
-- vue
-- vuex
+- Vue
+- Vuex
 categories: 
-- 学习
-- vue
+- Vue
 ---
 ## 基本逻辑
 

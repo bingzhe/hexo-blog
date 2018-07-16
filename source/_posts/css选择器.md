@@ -1,12 +1,10 @@
 ---
-title: css选择器
+title: CSS选择器
 date: 2016-06-06 18:31:30
 tags:
-- html
-- 笔记
+- CSS
 categories:
-- 学习
-- html
+- CSS
 ---
 ### 常见的css选择器
 

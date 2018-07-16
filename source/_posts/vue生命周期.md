@@ -1,12 +1,10 @@
 ---
-title: vue生命周期
+title: Vue生命周期
 date: 2017-06-25 22:45:52
 tags: 
-- 学习
-- vue
+- Vue
 categories: 
-- 学习
-- vue
+- Vue
 ---
 看了vue好长时间了，总结下vue的生命周期，以备以后查询。
 
