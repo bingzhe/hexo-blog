@@ -12,12 +12,12 @@ menu:
     text: 主页
     url: /
   archives:
-    url: /archives
+    url: /archives/
   tags:
-    url: /tags
+    url: /tags/
   th-list:
     text: Categories
-    url: /categories
+    url: /categories/
   github:
     url: https://github.com/bingzhe
     target: _blank
@@ -62,10 +62,10 @@ show_last_updated: true
 share: true
 
 # 是否开启打赏，关闭 reward: false
-reward:
-  title: 谢谢大爷~
-  wechat: /img/wechat.jpg     #微信，关闭设为 false
-  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
+reward: false
+  # title: 谢谢大爷~
+  # wechat: /img/wechat.jpg     #微信，关闭设为 false
+  # alipay: /img/alipay.jpg     #支付宝，关闭设为 false
 
 # 是否开启搜索
 search: true
