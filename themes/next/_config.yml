@@ -16,18 +16,17 @@ cache:
 # Redefine custom file paths. Introduced in NexT v6.0.2. If commented, will be used default custom file paths.
 # For example, you want to put your custom styles file outside theme directory in root `source/_data`, set `styles: source/_data/styles.styl`
 #custom_file_path:
-  # Default paths: layout/_custom/*
-  #head: source/_data/head.swig
-  #header: source/_data/header.swig
-  #sidebar: source/_data/sidebar.swig
+# Default paths: layout/_custom/*
+#head: source/_data/head.swig
+#header: source/_data/header.swig
+#sidebar: source/_data/sidebar.swig
 
-  # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
-  # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
-  # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
-
+# Default path: source/css/_variables/custom.styl
+#variables: source/_data/variables.styl
+# Default path: source/css/_mixins/custom.styl
+#mixins: source/_data/mixins.styl
+# Default path: source/css/_custom/custom.styl
+#styles: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -49,7 +48,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2016
 
   # Icon between year and copyright info.
   icon:
@@ -57,7 +56,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -93,16 +92,15 @@ footer:
 # Valid values of language: deed.zh, deed.fr, deed.de, etc.
 creative_commons:
   license: by-nc-sa
-  sidebar: false
+  sidebar: true
   post: false
   language:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/bingzhe
   title: Follow me on GitHub
-
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -145,7 +143,6 @@ exturl: false
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -158,30 +155,28 @@ baidu_push: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  # schedule: /schedule/ || calendar
+  # sitemap: /sitemap.xml || sitemap
+  # commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
-
+  badges: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+# scheme: Muse
 #scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
-
+# scheme: Pisces
+scheme: Gemini
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -197,11 +192,11 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
-  #Weibo: https://weibo.com/yourname || weibo
+  GitHub: https://github.com/bingzhe || github
+  E-Mail: mailto:ranzhouli@foxmail.com || envelope
+  Weibo: https://weibo.com/u/2515755864 || weibo
   #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/yourname || twitter
+  Twitter: https://twitter.com/RR68760954 || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -227,7 +222,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -287,7 +282,6 @@ chat:
   icon: comment # icon in Font Awesome 4, set false to disable icon
   text: Chat # button text, change it as you wish
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # See: https://theme-next.org/docs/theme-settings/posts
@@ -310,6 +304,7 @@ excerpt_description: true
 
 # Automatically Excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
+# 自动生成摘要
 auto_excerpt:
   enable: false
   length: 150
@@ -341,9 +336,9 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
     style:
 
@@ -386,7 +381,6 @@ post_edit:
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -412,7 +406,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # Enable "cheers" for archive page.
 cheers: true
@@ -427,7 +421,6 @@ tagcloud:
   start: "#ccc" # start color (hex, rgba, hsla or color keywords)
   end: "#111" # end color (hex, rgba, hsla or color keywords)
   amount: 200 # amount of tags, change it if you have more than 200 tags
-
 
 # ---------------------------------------------------------------
 # Font Settings. Introduced in NexT v5.0.1.
@@ -483,7 +476,6 @@ font:
     family:
     size:
 
-
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # See: https://theme-next.org/docs/third-party-services/
@@ -509,7 +501,6 @@ math:
   mathjax:
     cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
-
     # See: https://mhchem.github.io/MathJax-mhchem/
     #mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
     #mhchem: //cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0
@@ -594,7 +585,6 @@ calendar:
   singleEvents: true
   maxResults: 250
 
-
 # ---------------------------------------------------------------
 # Comments and Widgets
 # See: https://theme-next.org/docs/third-party-services/comments-and-widgets
@@ -632,8 +622,8 @@ changyan:
 # More info available at https://valine.js.org
 valine:
   enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  appid: # your leancloud application appid
+  appkey: # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -667,18 +657,17 @@ gitment:
 # Gitalk
 # Demo: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id: bingzhe # Github repo owner
+  repo: hexo-blog # Repository name to store issues
+  client_id: 58ab6dc5bcfed1139abe # Github Application Client ID
+  client_secret: fc3e660833956202cea9e0517c118e06869b694c # Github Application Client Secret
+  admin_user: bingzhe # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
-  language:
-
+  language: zh-CN
 
 # ---------------------------------------------------------------
 # Content Sharing Services
@@ -738,7 +727,6 @@ needmoreshare2:
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
-
 # ---------------------------------------------------------------
 # Statistics and Analytics
 # See: https://theme-next.org/docs/third-party-services/statistics-and-analytics
@@ -767,36 +755,36 @@ needmoreshare2:
 # ---------------------------------------------------------------
 # Facebook SDK Support
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: # 429624064271956
+  fb_admin: # 100017474891904
+  like_button: # true
+  webmaster: # true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -838,7 +826,6 @@ busuanzi_count:
 # Tencent MTA ID
 #tencent_mta:
 
-
 # ---------------------------------------------------------------
 # Search Services
 # See: https://theme-next.org/docs/third-party-services/search-services
@@ -859,7 +846,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -870,7 +857,6 @@ local_search:
 
 # Swiftype Search API Key
 #swiftype_key:
-
 
 # ---------------------------------------------------------------
 # Chat Services
@@ -892,7 +878,6 @@ chatra:
 tidio:
   enable: false
   key: # Public Key, get it from Dashboard, See: https://www.tidiochat.com/panel/settings/developer
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -941,7 +926,6 @@ mermaid:
   theme: forest
   cdn: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js
-
 
 # ---------------------------------------------------------------
 # Animation Settings
@@ -992,7 +976,7 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # display on mobile or not
   color: "0,0,255" # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
@@ -1018,7 +1002,6 @@ canvas_ribbon:
   size: 300
   alpha: 0.6
   zIndex: -1
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS

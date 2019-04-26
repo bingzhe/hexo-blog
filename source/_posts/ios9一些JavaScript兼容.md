@@ -12,6 +12,8 @@ ios9浏览器上一些坑。
 1. ios9不支持let
 2. promise
 
+<!-- more -->
+
 ``` js
 //安装
 npm install --save @babel/polyfill es6-promise
