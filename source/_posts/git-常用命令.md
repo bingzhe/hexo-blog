@@ -297,6 +297,9 @@ $ git stash pop
 ```
 # 生成一个可供发布的压缩包
 $ git archive
+# git 无法添加文件夹下的文件(解决,如果文件夹中有.git配置文件，需要删除)
+$ git rm --cached folder
+$ git add folder
 ```
 
 ### 参考
